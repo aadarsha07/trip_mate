@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:trip_mate/screens/register_page.dart';
+import 'package:trip_mate/screens/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const RegisterPage(),
+      home: const HomePage(),
     );
   }
 }
